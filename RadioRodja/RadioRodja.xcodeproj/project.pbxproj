@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC267C3C1FC325270038134C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC267C3B1FC325270038134C /* AppDelegate.swift */; };
+		AC267C3E1FC325270038134C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC267C3D1FC325270038134C /* ViewController.swift */; };
+		AC267C411FC325270038134C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC267C3F1FC325270038134C /* Main.storyboard */; };
+		AC267C431FC325270038134C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC267C421FC325270038134C /* Assets.xcassets */; };
+		AC267C461FC325270038134C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC267C441FC325270038134C /* LaunchScreen.storyboard */; };
+		AC267C511FC325270038134C /* RadioRodjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC267C501FC325270038134C /* RadioRodjaTests.swift */; };
+		AC267C5C1FC325270038134C /* RadioRodjaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC267C5B1FC325270038134C /* RadioRodjaUITests.swift */; };
+		AC267C6A1FC3B3BA0038134C /* radioFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC267C691FC3B3BA0038134C /* radioFunc.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC267C4D1FC325270038134C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC267C301FC325270038134C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC267C371FC325270038134C;
+			remoteInfo = RadioRodja;
+		};
+		AC267C581FC325270038134C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC267C301FC325270038134C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC267C371FC325270038134C;
+			remoteInfo = RadioRodja;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC267C381FC325270038134C /* RadioRodja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioRodja.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC267C3B1FC325270038134C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC267C3D1FC325270038134C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC267C401FC325270038134C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC267C421FC325270038134C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC267C451FC325270038134C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC267C471FC325270038134C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC267C4C1FC325270038134C /* RadioRodjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioRodjaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC267C501FC325270038134C /* RadioRodjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioRodjaTests.swift; sourceTree = "<group>"; };
+		AC267C521FC325270038134C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC267C571FC325270038134C /* RadioRodjaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioRodjaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC267C5B1FC325270038134C /* RadioRodjaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioRodjaUITests.swift; sourceTree = "<group>"; };
+		AC267C5D1FC325270038134C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC267C691FC3B3BA0038134C /* radioFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radioFunc.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC267C351FC325270038134C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC267C491FC325270038134C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC267C541FC325270038134C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC267C2F1FC325270038134C = {
+			isa = PBXGroup;
+			children = (
+				AC267C3A1FC325270038134C /* RadioRodja */,
+				AC267C4F1FC325270038134C /* RadioRodjaTests */,
+				AC267C5A1FC325270038134C /* RadioRodjaUITests */,
+				AC267C391FC325270038134C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC267C391FC325270038134C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC267C381FC325270038134C /* RadioRodja.app */,
+				AC267C4C1FC325270038134C /* RadioRodjaTests.xctest */,
+				AC267C571FC325270038134C /* RadioRodjaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC267C3A1FC325270038134C /* RadioRodja */ = {
+			isa = PBXGroup;
+			children = (
+				AC267C3B1FC325270038134C /* AppDelegate.swift */,
+				AC267C3D1FC325270038134C /* ViewController.swift */,
+				AC267C3F1FC325270038134C /* Main.storyboard */,
+				AC267C421FC325270038134C /* Assets.xcassets */,
+				AC267C441FC325270038134C /* LaunchScreen.storyboard */,
+				AC267C471FC325270038134C /* Info.plist */,
+				AC267C691FC3B3BA0038134C /* radioFunc.swift */,
+			);
+			path = RadioRodja;
+			sourceTree = "<group>";
+		};
+		AC267C4F1FC325270038134C /* RadioRodjaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC267C501FC325270038134C /* RadioRodjaTests.swift */,
+				AC267C521FC325270038134C /* Info.plist */,
+			);
+			path = RadioRodjaTests;
+			sourceTree = "<group>";
+		};
+		AC267C5A1FC325270038134C /* RadioRodjaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC267C5B1FC325270038134C /* RadioRodjaUITests.swift */,
+				AC267C5D1FC325270038134C /* Info.plist */,
+			);
+			path = RadioRodjaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC267C371FC325270038134C /* RadioRodja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC267C601FC325270038134C /* Build configuration list for PBXNativeTarget "RadioRodja" */;
+			buildPhases = (
+				AC267C341FC325270038134C /* Sources */,
+				AC267C351FC325270038134C /* Frameworks */,
+				AC267C361FC325270038134C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioRodja;
+			productName = RadioRodja;
+			productReference = AC267C381FC325270038134C /* RadioRodja.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC267C4B1FC325270038134C /* RadioRodjaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC267C631FC325270038134C /* Build configuration list for PBXNativeTarget "RadioRodjaTests" */;
+			buildPhases = (
+				AC267C481FC325270038134C /* Sources */,
+				AC267C491FC325270038134C /* Frameworks */,
+				AC267C4A1FC325270038134C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC267C4E1FC325270038134C /* PBXTargetDependency */,
+			);
+			name = RadioRodjaTests;
+			productName = RadioRodjaTests;
+			productReference = AC267C4C1FC325270038134C /* RadioRodjaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC267C561FC325270038134C /* RadioRodjaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC267C661FC325270038134C /* Build configuration list for PBXNativeTarget "RadioRodjaUITests" */;
+			buildPhases = (
+				AC267C531FC325270038134C /* Sources */,
+				AC267C541FC325270038134C /* Frameworks */,
+				AC267C551FC325270038134C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC267C591FC325270038134C /* PBXTargetDependency */,
+			);
+			name = RadioRodjaUITests;
+			productName = RadioRodjaUITests;
+			productReference = AC267C571FC325270038134C /* RadioRodjaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC267C301FC325270038134C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Abi Sayuti";
+				TargetAttributes = {
+					AC267C371FC325270038134C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC267C4B1FC325270038134C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC267C371FC325270038134C;
+					};
+					AC267C561FC325270038134C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC267C371FC325270038134C;
+					};
+				};
+			};
+			buildConfigurationList = AC267C331FC325270038134C /* Build configuration list for PBXProject "RadioRodja" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC267C2F1FC325270038134C;
+			productRefGroup = AC267C391FC325270038134C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC267C371FC325270038134C /* RadioRodja */,
+				AC267C4B1FC325270038134C /* RadioRodjaTests */,
+				AC267C561FC325270038134C /* RadioRodjaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC267C361FC325270038134C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC267C461FC325270038134C /* LaunchScreen.storyboard in Resources */,
+				AC267C431FC325270038134C /* Assets.xcassets in Resources */,
+				AC267C411FC325270038134C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC267C4A1FC325270038134C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC267C551FC325270038134C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC267C341FC325270038134C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC267C3E1FC325270038134C /* ViewController.swift in Sources */,
+				AC267C6A1FC3B3BA0038134C /* radioFunc.swift in Sources */,
+				AC267C3C1FC325270038134C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC267C481FC325270038134C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC267C511FC325270038134C /* RadioRodjaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC267C531FC325270038134C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC267C5C1FC325270038134C /* RadioRodjaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC267C4E1FC325270038134C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC267C371FC325270038134C /* RadioRodja */;
+			targetProxy = AC267C4D1FC325270038134C /* PBXContainerItemProxy */;
+		};
+		AC267C591FC325270038134C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC267C371FC325270038134C /* RadioRodja */;
+			targetProxy = AC267C581FC325270038134C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC267C3F1FC325270038134C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC267C401FC325270038134C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC267C441FC325270038134C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC267C451FC325270038134C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC267C5E1FC325270038134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC267C5F1FC325270038134C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC267C611FC325270038134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadioRodja/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.RadioRodja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC267C621FC325270038134C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadioRodja/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.RadioRodja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC267C641FC325270038134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadioRodjaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.RadioRodjaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioRodja.app/RadioRodja";
+			};
+			name = Debug;
+		};
+		AC267C651FC325270038134C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadioRodjaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.RadioRodjaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioRodja.app/RadioRodja";
+			};
+			name = Release;
+		};
+		AC267C671FC325270038134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadioRodjaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.RadioRodjaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadioRodja;
+			};
+			name = Debug;
+		};
+		AC267C681FC325270038134C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadioRodjaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.RadioRodjaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadioRodja;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC267C331FC325270038134C /* Build configuration list for PBXProject "RadioRodja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC267C5E1FC325270038134C /* Debug */,
+				AC267C5F1FC325270038134C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC267C601FC325270038134C /* Build configuration list for PBXNativeTarget "RadioRodja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC267C611FC325270038134C /* Debug */,
+				AC267C621FC325270038134C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC267C631FC325270038134C /* Build configuration list for PBXNativeTarget "RadioRodjaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC267C641FC325270038134C /* Debug */,
+				AC267C651FC325270038134C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC267C661FC325270038134C /* Build configuration list for PBXNativeTarget "RadioRodjaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC267C671FC325270038134C /* Debug */,
+				AC267C681FC325270038134C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC267C301FC325270038134C /* Project object */;
+}
